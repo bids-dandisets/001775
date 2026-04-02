@@ -12,9 +12,44 @@ acknowledgement: We thank all members of the Kitamura Laboratory for their suppo
   by Endowed Scholar Program (T.K) and Japan Society for the Promotion of Science
   grant 19J20331 (YO)
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  - name: behavioral approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
+  - name: signal filtering technique
+    schemaKey: MeasurementTechniqueType
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 9257531660
+  numberOfFiles: 14
+  numberOfSubjects: 2
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - ElectrodeGroup
+  - ProcessingModule
+  - LFP
+  - ElectricalSeries
+  - SpatialSeries
+  - Units
+  - Position
 citation: Omura, Yoshiyuki (2026) Mouse hippocampal electrophysiology during spatial
   working memory and consummatory behavior (Version draft) [Data set]. DANDI Archive.
   https://dandiarchive.org/dandiset/001775/draft
