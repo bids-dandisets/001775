@@ -3,9 +3,14 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
+acknowledgement: We thank all members of the Kitamura Laboratory for their support,
+  Dr. Hisayuki Osanai for providing silicon probe recording data. This work was funded
+  by Endowed Scholar Program (T.K) and Japan Society for the Promotion of Science
+  grant 19J20331 (YO)
 assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
@@ -22,20 +27,27 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2026-04-02T02:58:07.516649+00:00'
-description: This Dandiset contains mouse hippocampal CA1 electrophysiology and behavioral
-  data acquired during delayed non-match-to-place (DNMP), open-field, and related
-  foraging experiments. Data include sorted spike times, LFP, position tracking, trial
-  intervals, consummatory and other behavioral event annotations.
+description: This Dandiset contains mouse hippocampal dorsal CA1 electrophysiology
+  and behavioral data acquired during delayed non-match-to-place (DNMP), open-field,
+  and related foraging experiments. Data include sorted spike times, LFP, position
+  tracking, trial intervals, consummatory and other behavioral event annotations.
+ethicsApproval: []
 id: DANDI:001775/draft
 identifier: DANDI:001775
+keywords:
+- Oscillations; Theta; SWRs; Atropine; Reward Cells; Mice; Spatial Working Memory
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001775/versions/draft/assets/
 name: Mouse hippocampal electrophysiology during spatial working memory and consummatory
   behavior
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
+studyTarget:
+- Hippocampal neural dynamics during spatial working memory and reward consumption
 url: https://dandiarchive.org/dandiset/001775/draft
 version: draft
+wasGeneratedBy: []
