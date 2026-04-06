@@ -55,18 +55,25 @@ citation: Omura, Yoshiyuki (2026) Mouse hippocampal electrophysiology during spa
   working memory and consummatory behavior (Version draft) [Data set]. DANDI Archive.
   https://dandiarchive.org/dandiset/001775/draft
 contributor:
-- affiliation: []
-  email: y.ohmura909023@icloud.com
+- affiliation:
+  - identifier: https://ror.org/05byvp690
+    name: The University of Texas Southwestern Medical Center
+    schemaKey: Affiliation
+  awardNumber: 19J20331
+  email: Yoshiyuki.Omura@UTSouthwestern.edu
+  identifier: 0009-0006-5120-9439
   includeInCitation: true
   name: Omura, Yoshiyuki
   roleName:
   - dcite:ContactPerson
+  - dcite:Author
   schemaKey: Person
 dateCreated: '2026-04-02T02:58:07.516649+00:00'
 description: This Dandiset contains mouse hippocampal dorsal CA1 electrophysiology
   and behavioral data acquired during delayed non-match-to-place (DNMP), open-field,
-  and related foraging experiments. Data include sorted spike times, LFP, position
-  tracking, trial intervals, consummatory and other behavioral event annotations.
+  and related foraging experiments. Data include sorted spike times (using MountainSort4),
+  LFP, position tracking, trial intervals, consummatory and other behavioral event
+  annotations.
 ethicsApproval: []
 id: DANDI:001775/draft
 identifier: DANDI:001775
