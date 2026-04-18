@@ -52,8 +52,8 @@ assetsSummary:
   - Position
   - BehavioralTimeSeries
 citation: Omura, Yoshiyuki (2026) Mouse hippocampal electrophysiology during spatial
-  working memory and consummatory behavior (Version draft) [Data set]. DANDI Archive.
-  https://dandiarchive.org/dandiset/001775/draft
+  working memory and consummatory behavior (Version 0.260418.0538) [Data set]. DANDI
+  Archive. https://doi.org/10.48324/dandi.001775/0.260418.0538
 contributor:
 - affiliation:
   - identifier: https://ror.org/05byvp690
@@ -79,26 +79,40 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2026-04-02T02:58:07.516649+00:00'
+datePublished: '2026-04-18T05:38:11.943292+00:00'
 description: This Dandiset contains mouse hippocampal dorsal CA1 electrophysiology
   and behavioral data acquired during delayed non-match-to-place (DNMP), open-field,
   and related foraging experiments. Data include sorted spike times (using MountainSort4),
   LFP, position tracking, trial intervals, consummatory and other behavioral event
   annotations.
+doi: 10.48324/dandi.001775/0.260418.0538
 ethicsApproval:
 - contactPoint:
     schemaKey: ContactPoint
   identifier: 'ACUC protocol number: 2017-102301'
   schemaKey: EthicsApproval
-id: DANDI:001775/draft
+id: DANDI:001775/0.260418.0538
 identifier: DANDI:001775
 keywords:
 - Oscillations; Theta; SWRs; Atropine; Reward Cells; Mice; Spatial Working Memory
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001775/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001775/0.260418.0538/assets.yaml
 name: Mouse hippocampal electrophysiology during spatial working memory and consummatory
   behavior
+publishedBy:
+  endDate: '2026-04-18T05:38:11.943292+00:00'
+  id: urn:uuid:ae45957c-2701-4b16-9e9a-6a9ddadc8c8b
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-04-18T05:38:11.943292+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:57949f62-4330-47e3-9098-7edd9ad9674a
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: 10.5281/zenodo.18580888
   name: MATLAB code and processed data for mouse dorsal CA1 electrophysiology during
@@ -113,6 +127,6 @@ schemaKey: Dandiset
 schemaVersion: 0.7.0
 studyTarget:
 - Hippocampal neural dynamics during spatial working memory and reward consumption
-url: https://dandiarchive.org/dandiset/001775/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001775/0.260418.0538
+version: 0.260418.0538
 wasGeneratedBy: []
