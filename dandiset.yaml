@@ -34,8 +34,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 65413503292
-  numberOfFiles: 84
+  numberOfBytes: 66156763068
+  numberOfFiles: 85
   numberOfSubjects: 6
   schemaKey: AssetsSummary
   species:
@@ -68,13 +68,23 @@ contributor:
   - dcite:ContactPerson
   - dcite:Author
   schemaKey: Person
+- identifier: https://ror.org/05byvp690
+  name: Endowed Scholar Program at UTSW (Takashi Kitamura)
+  schemaKey: Organization
+- identifier: https://ror.org/00hhkn466
+  name: Japan Society for the Promotion of Science grant 19J20331 (Yoshiyuki Omura)
+  schemaKey: Organization
 dateCreated: '2026-04-02T02:58:07.516649+00:00'
 description: This Dandiset contains mouse hippocampal dorsal CA1 electrophysiology
   and behavioral data acquired during delayed non-match-to-place (DNMP), open-field,
   and related foraging experiments. Data include sorted spike times (using MountainSort4),
   LFP, position tracking, trial intervals, consummatory and other behavioral event
   annotations.
-ethicsApproval: []
+ethicsApproval:
+- contactPoint:
+    schemaKey: ContactPoint
+  identifier: 'ACUC protocol number: 2017-102301'
+  schemaKey: EthicsApproval
 id: DANDI:001775/draft
 identifier: DANDI:001775
 keywords:
