@@ -70,9 +70,13 @@ contributor:
   schemaKey: Person
 - identifier: https://ror.org/05byvp690
   name: Endowed Scholar Program at UTSW (Takashi Kitamura)
+  roleName:
+  - dcite:Funder
   schemaKey: Organization
 - identifier: https://ror.org/00hhkn466
   name: Japan Society for the Promotion of Science grant 19J20331 (Yoshiyuki Omura)
+  roleName:
+  - dcite:Funder
   schemaKey: Organization
 dateCreated: '2026-04-02T02:58:07.516649+00:00'
 description: This Dandiset contains mouse hippocampal dorsal CA1 electrophysiology
@@ -95,7 +99,15 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001775/versions/draft/assets/
 name: Mouse hippocampal electrophysiology during spatial working memory and consummatory
   behavior
-relatedResource: []
+relatedResource:
+- identifier: 10.5281/zenodo.18580888
+  name: MATLAB code and processed data for mouse dorsal CA1 electrophysiology during
+    DNMP and foraging experiments
+  relation: dcite:IsSupplementedBy
+  repository: Zenodo
+  resourceType: dcite:Software
+  schemaKey: Resource
+  url: https://doi.org/10.5281/zenodo.18580888
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
